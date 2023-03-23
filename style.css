@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;padding: 0;
+    font-family: 'Roboto Slab', serif;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background:linear-gradient(45deg,#fffc66,#f941ff);
+    color: #102a42;
+}
+
+.counter{
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background:linear-gradient(45deg,#ffa8a8,#d2f7dc);
+    border: none;
+    box-shadow: 0px 0px 30px #4e6c4e;
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+    font-size: 1.8rem;
+}
+#counter{
+    text-align: center;
+    font-size: 25px;
+}
+.counter_button{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    height: 40px;
+    width: 130px;
+    background-color:#c8fafa ;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px #4e6c4e;
+    font-size: .9rem;
+}
+
+button:hover{
+    color: #102a42;
+    background-color: aliceblue;
+    box-shadow: none;
+}
+
+.reset{
+    display: flex;
+    justify-content: center;
+    margin-top: -39px;
+}
